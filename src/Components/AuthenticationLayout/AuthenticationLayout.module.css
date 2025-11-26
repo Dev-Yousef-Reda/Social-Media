@@ -1,0 +1,21 @@
+
+.bgGradient {
+   /* background: #ff00cc;  
+   background: -webkit-linear-gradient(to right, #333399, #ff00cc);  
+   background: linear-gradient(to right, #333399, #ff00cc);  */
+   background: #000428;
+   background: linear-gradient(to left, #004e92, #000428);
+   background: -webkit-linear-gradient(to left, #004e92, #000428);
+}
+
+.textGradient {
+   background: #B7DEED;
+   background-image: linear-gradient(to right, #ddc98b, #715b19); 
+   /* background: linear-gradient(to right, #B7DEED 0%, #71CEEF 25%, #21B4E2 75%, #B7DEED 100%); */
+   /* background-image: linear-gradient(45deg, #2192a6, #03607e 50%, #710cdc 100%); */
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   line-height: 1.4;
+}
+
