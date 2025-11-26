@@ -130,7 +130,7 @@ export default function NavbarComponent() {
             </Link>
             <div className="flex md:order-2">
                 <Dropdown
-                    className=" bg-secondary! "
+                    className=" bg-secondary! px-2 "
                     arrowIcon={false}
                     inline
                     label={
@@ -149,14 +149,14 @@ export default function NavbarComponent() {
 
                     <DropdownDivider />
 
-                    <DropdownItem className="p-0 text-secondary-foreground! hover:bg-accent! hover:text-accent-foreground! " >
-                        <Link className="w-full py-2 text-secondary-foreground! hover:bg-accent! hover:text-accent-foreground! " to='profile' > Profile </Link>
+                    <DropdownItem className=" rounded-sm py-0 text-secondary-foreground! hover:bg-accent! hover:text-accent-foreground! " >
+                        <Link className="w-full px-2 py-2 text-secondary-foreground! hover:bg-accent! hover:text-accent-foreground! " to='profile' > Profile </Link>
                     </DropdownItem>
-                    <DropdownItem className="p-0 text-secondary-foreground! hover:bg-accent! hover:text-accent-foreground! ">
-                        <Link className="w-full py-2 text-secondary-foreground! hover:bg-accent! hover:text-accent-foreground! " to='/settings' > Settings </Link>
+                    <DropdownItem className="py-0 rounded-sm text-secondary-foreground! hover:bg-accent! hover:text-accent-foreground! ">
+                        <Link className="w-full px-0 py-2 text-secondary-foreground! hover:bg-accent! hover:text-accent-foreground! " to='/settings' > Settings </Link>
                     </DropdownItem>
-                    <DropdownItem className="p-0 py-2 text-secondary-foreground! hover:bg-accent! hover:text-accent-foreground! ">
-                        <Link className="w-full text-secondary-foreground! hover:bg-accent! hover:text-accent-foreground! " onClick={handleSignOut} to='/login' >Sign Out </Link>
+                    <DropdownItem className=" py-0 rounded-sm text-secondary-foreground! hover:bg-accent! hover:text-accent-foreground! ">
+                        <Link className="w-full px-0 py-2 text-secondary-foreground! hover:bg-accent! hover:text-accent-foreground! " onClick={handleSignOut} to='/login' >Sign Out </Link>
                     </DropdownItem>
                 </Dropdown>
             </div>
